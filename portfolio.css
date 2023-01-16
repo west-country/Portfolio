@@ -29,5 +29,11 @@ nav div {
 	flex-direction: column;
 	padding: 20px;
 	align-items: flex-start;
+	border: solid red 2px;
 }
+
+.project {
+	display: flex;
+}
+
 
