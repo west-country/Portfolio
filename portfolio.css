@@ -12,25 +12,36 @@ nav div {
 
 .welcome-container {
 	display: flex;
-	align-items: flex-start;
+	align-items: flex-center;
 	padding: 20px;
 	flex-direction: column;
+}
+
+.welcome-container div {
+	display: flex;
+	justify-content: center;
 }
 
 .about {
 	display: flex;
 	flex-direction: column;
 	padding: 20px;
-	align-items: flex-start;
+	align-items: flex-center;
+}
+
+.about div {
+	display: flex;
+	justify-content: center;
 }
 
 .portfolio {
 	display: flex;
 	flex-direction: column;
 	padding: 20px;
-	align-items: flex-start;
+	/*align-items: flex-start;*/
 	border: solid red 2px;
 	justify-content: center;
+	align-items: center;
 }
 
 .project {
@@ -43,7 +54,7 @@ nav div {
 }
 
 .portfolio-title {
-	display: flex;
+	/*display: flex;*/
 	/*margin: 10px;*/
 }
 
@@ -51,6 +62,7 @@ nav div {
 .project-container {
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 }
 
 .contact {
@@ -58,3 +70,6 @@ nav div {
 	flex-direction: column;
 }
 
+.contact {
+	
+}
