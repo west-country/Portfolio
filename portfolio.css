@@ -9,3 +9,12 @@ nav div {
 	color: white;
 	padding: 20px;
 }
+
+.welcome-container {
+	display: flex;
+	align-items: flex-start;
+	padding: 20px;
+	flex-direction: column;
+}
+
+.about
