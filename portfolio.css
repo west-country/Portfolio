@@ -17,4 +17,17 @@ nav div {
 	flex-direction: column;
 }
 
-.about
+.about {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	align-items: flex-start;
+}
+
+.portfolio {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	align-items: flex-start;
+}
+
