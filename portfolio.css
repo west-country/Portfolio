@@ -128,22 +128,15 @@ nav div {
 	border: solid blue 1px;
 	padding: 0px;
 	/*min-width: 200px*/;
-	min-height: 200px;
-	min-width: 400px;
-	margin: 10px auto;
+	height: 300px;
+	width: 32%;
+	/*width: 445px;*/
+	/*max-width: 75%;*/
+	margin: 10px 5px;
 	flex-direction: row;
-	
-	justify-content: ;
-	width: auto;
-	height: auto;
-	
 	flex-direction: row;
-	flex-wrap: wrap;*/
+	flex-wrap: wrap;
 
-		
-	
-	max-width: auto;
-	max-height: auto;
 }
 
 .project div {
@@ -152,7 +145,7 @@ nav div {
 	border: solid orange 1px;
 	width: 50%;
 	height: 100%;
-	padding: 5px;
+	padding: 0px;
 }
 
 .portfolio-title {
@@ -173,8 +166,15 @@ nav div {
 
 .project-photo {
 	display: flex;
-	size: auto;
-	max-width: 320px;
+	max-size: 100%;
+
+	/*max-width: 305px;*/
+	
+}
+
+.projectphoto {
+		height: 100%;
+		width: 100%;
 }
 
 .contact {
@@ -187,18 +187,13 @@ nav div {
 	border: solid yellow 1px;
 }
 
-.contact-title, .email {
+footer div {
 	display: flex;
 	justify-content: flex-start;
 	color: white;
 	padding: 0 20px;
 	border: solid yellow 1px;
 	margin: 0px;
-}
-
-.email {
-	border: solid yellow 1px;
-	margin: 0px 0px 15px 0px;
 }
 
 
