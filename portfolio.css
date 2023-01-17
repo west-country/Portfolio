@@ -1,10 +1,14 @@
 * {
 	font-family: Helvetica;
-}
-
-* {
 	background-color: #23262b;
 	color: #e1e3e6;
+	box-sizing: border-box; 
+}
+
+.body {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
 }
 
 nav {
@@ -25,38 +29,65 @@ nav div {
 
 .welcome-container {
 	display: flex;
-	align-items: flex-center;
+	align-items: center;
 	padding: 20px;
 	flex-direction: column;
-	flex-wrap: wrap;
+	flex-wrap: row-wrap;
+	max width: 100%;
+	border: solid red 2px;
 }
 
 .welcome-container div {
 	display: flex;
 	justify-content: center;
 	max width: auto;
-	flex-wrap: wrap;
+	flex-wrap: row-wrap;
+	max width: auto;
+	border: solid purple 1px;
 }
 
 .about {
 	display: flex;
-	align-items: flex-center;
+	align-items: center;
 	flex-direction: column;
 	padding: 20px;
-	flex-wrap: wrap;
+	flex-wrap: row-wrap;
+	max-width: auto;
+	border: solid red 2px;
 }
 
 
 .about div {
 	display: flex;
-	justify-content: center;
-	max width: 100%;
+	/*justify-content: center;*/
+	width: auto;
+	flex-wrap: wrap;
+	border: solid purple 1px;
+	align-items: start;
+	flex-direction: row;
+	white-space: normal;
+	word-break: break-all;
 	/*flex-wrap: wrap;
 	flex-direction: column;
 	padding: 20px;
 	/*align-items: flex-start;
 	border: solid red 2px;
 	align-items: center;*/
+
+	justify-content: center;
+	
+	
+	
+	flex-align: center;
+}
+
+.about-card {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	max-width: 200px;
+	max-height: 100%;
+	padding: 20px;
 }
 
 
@@ -68,6 +99,7 @@ nav div {
 	border: solid red 2px;
 	justify-content: center;
 	align-items: center;
+	max width: auto;
 }
 
 .project {
