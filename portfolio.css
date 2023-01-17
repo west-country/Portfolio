@@ -113,7 +113,7 @@ nav div {
 .portfolio-container {
 	display: flex;
 	flex-direction: column;
-	padding: 20px;
+	padding: auto;
 	/*align-items: flex-start;*/
 	border: solid red 2px;
 	justify-content: center;
@@ -167,6 +167,12 @@ nav div {
 	width: 100%;
 	flex-wrap: wrap;
 	flex-align: center;
+}
+
+.project-photo {
+	display: flex;
+	size: auto;
+	max-width: 320px;
 }
 
 .contact {
