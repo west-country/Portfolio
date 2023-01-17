@@ -11,6 +11,10 @@
 	flex-wrap: wrap;
 }
 
+a:link {
+	text-decoration: none;
+}
+
 nav {
 	display: flex;
 	/*gap: 20px;*/
@@ -18,11 +22,11 @@ nav {
 	justify-content: flex-start;
 }
 
-nav a: visited {
+nav a:visited {
 	color: white;
 }
 
-nav a: hover {
+nav a:hover {
 	color: orange;
 }
 
@@ -136,6 +140,7 @@ nav div {
 	flex-direction: row;
 	flex-direction: row;
 	flex-wrap: wrap;
+	 border-radius: 5px;
 
 }
 
@@ -181,24 +186,27 @@ nav div {
 	display: flex;
 	/*gap: 20px;*/
 	background-color: #23262b;
-	flex-direction: column;
+	flex-direction: row;
 	color: white;
 	padding: 0px;
 	border: solid yellow 1px;
+	justify-content: space-between;
 }
 
-footer div {
-	display: flex;
-	justify-content: flex-start;
+footer div, footer a {
 	color: white;
 	padding: 0 20px;
 	border: solid yellow 1px;
 	margin: 0px;
 }
 
+#email {
+
+}
+
 /*800*/
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
 	
 	.project-container {
 		display: flex;
