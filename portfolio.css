@@ -1,5 +1,7 @@
 * {
-	font-family: Helvetica;
+	/*font-family: Helvetica;*/
+
+	font-family: "Courier New", Courier, monospace;
 	background-color: #23262b;
 	color: #e1e3e6;
 	box-sizing: border-box; 
@@ -30,6 +32,10 @@ nav a:hover {
 	color: orange;
 }
 
+.project:hover {
+	/*background-color: yellow;*/
+}
+
 footer a:hover {
 	background-color: blue;
 }
@@ -46,7 +52,7 @@ nav div {
 	flex-direction: column;
 	flex-wrap: row-wrap;
 	max width: 100%;
-	border: solid red 2px;
+	/*border: solid red 2px;*/
 }
 
 .welcome-container div {
@@ -55,7 +61,7 @@ nav div {
 	max width: auto;
 	flex-wrap: row-wrap;
 	max width: auto;
-	border: solid purple 1px;
+	/*border: solid purple 1px;*/
 }
 
 .about {
@@ -67,7 +73,7 @@ nav div {
 	flex-wrap: row-wrap;
 	width: auto;
 	height: auto;
-	border: solid red 2px;
+	/*border: solid red 2px;*/
 	z-index: 4;
 	justify-content: space-evenly;
 	
@@ -101,7 +107,7 @@ nav div {
 	/*justify-content: center;*/
 	width: auto;
 	flex-wrap: wrap;
-	border: solid purple 1px;
+	/*border: solid purple 1px;*/
 	flex-direction: column;
 	/*white-space: normal;*/
 	/*word-break: break-all;*/
@@ -124,8 +130,7 @@ nav div {
 	display: flex;
 	flex-direction: column;
 	padding: auto;
-	/*align-items: flex-start;*/
-	border: solid red 2px;
+	/*border: solid red 2px;*/
 	justify-content: center;
 	align-items: center;
 	max width: auto;
@@ -133,7 +138,7 @@ nav div {
 
 .project {
 	display: flex;
-	border: solid green 1px;
+	/*border: solid green 1px;*/
 	padding: 0px;
 	/*min-width: 200px*/;
 	height: 300px;
@@ -145,8 +150,8 @@ nav div {
 	flex-direction: row;
 	flex-wrap: wrap;
 	 border-radius: 25px;
-	 z-index: 4;
-
+	background-color: #303338;
+		z-index: 4;
 }
 
 .project div {
@@ -156,7 +161,20 @@ nav div {
 	width: 50%;
 	height: 100%;
 	padding: 0px;
-	border-radius: 25px;
+	border-radius: 25px;/*25px*/
+	background-color: #303338;
+	z-index: 4;
+}
+
+.project-text * {
+	background-color: #303338;
+	padding: 0 10px;
+	max-height: 100%;
+}
+
+
+.project * {
+	background-color: #303338;
 }
 
 .portfolio-title {
@@ -169,18 +187,17 @@ nav div {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	border: solid purple 1px;
+	/*border: solid purple 1px;*/
 	width: 100%;
 	flex-wrap: wrap;
 	flex-align: center;
 }
 
-.project-photo {
+.project-photo-card {
 	display: flex;
 	max-size: 100%;
 	border-radius: 25px;
 	/*max-width: 305px;*/
-	z-index: 0;
 	
 }
 
@@ -197,14 +214,14 @@ nav div {
 	flex-direction: row;
 	color: white;
 	padding: 0px;
-	border: solid yellow 1px;
+	/*border: solid yellow 1px;*/
 	justify-content: space-between;
 }
 
 footer div, footer a {
 	color: white;
 	padding: 0 20px;
-	border: solid yellow 1px;
+	/*border: solid yellow 1px;*/
 	margin: 0px;
 }
 
@@ -216,7 +233,7 @@ footer div, footer a {
 		display: flex;
 		flex-direction: column;
 		justify-content: stretch;
-		border: solid purple 1px;
+		/*border: solid purple 1px;*/
 		width: 100%;
 		flex-wrap: wrap;
 		flex-align: center;
@@ -226,13 +243,15 @@ footer div, footer a {
 	
 	.project {
 		display: flex;
-		border: solid blue 1px;
+		/*border: solid blue 1px;*/
 		padding: 0px;
 		width: 350px;
 		/*max-width: 250px;*/
-		min-height: 200px;
+		height: 260px; /*300*/
 		/*margin: 10px;*/
 		margin: 5px auto;
 	}
+	
+
 	
 }
