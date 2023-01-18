@@ -19,37 +19,38 @@ a:link {
 
 nav {
 	display: flex;
+	position: fixed;
 	/*gap: 20px;*/
 	background-color: #23262b;
 	justify-content: flex-start;
-}
-
-nav a:visited {
-	color: white;
+	max-height: 30px;
 }
 
 nav a:hover {
 	color: orange;
+	font-size: 17px;
 }
 
 /*.project-text h3:hover, .project-text p:hover {
 	background-color: yellow;
 }*/
 
-.project:hover .hover-block {
+/*.project:hover .hover-block {
 	background-color: yellow;
-}
+}*/
 
 footer a p i:hover {
 	color: orange;
+	font-size: 31px;
 }
 
-.hover-block:hover {
-	background-color: orange;
+.github:hover, .live:hover {
+	color: orange;
+	font-size: 22px;
 }
+
 
 nav div {
-	color: white;
 	padding: 20px;
 }
 
@@ -107,7 +108,6 @@ nav div {
 	flex-wrap: wrap;
 	max-width: auto;
 	max-height: auto;
-	
 }
 
 .about div {
@@ -154,7 +154,6 @@ nav div {
 	/*max-width: 75%;*/
 	margin: 10px 5px;
 	flex-direction: row;
-	flex-direction: row;
 	flex-wrap: wrap;
 	 border-radius: 25px;
 	/*background-color: #303338;*/
@@ -169,16 +168,40 @@ nav div {
 	padding: 0px;
 	/*border-radius: 25px;/*25px*/
 	background-color: #303338;
-	z-index: 4;
+	/*z-index: 4;*/
+	position: relative;
+
+
+}
+
+.github {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  	border-radius: 0px 0px 0px 25px;
+}
+
+.live {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  	border-radius: 0px 0px 0px 25px;
 }
 
 .project-text * {
+	display: flex;
 	background-color: #303338;
 	max-height: 100%;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 0px;
 	padding-bottom: 0px;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 .project p {
@@ -200,7 +223,6 @@ nav div {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	/*border: solid purple 1px;*/
 	width: 100%;
 	flex-wrap: wrap;
 	flex-align: center;
@@ -237,11 +259,20 @@ nav div {
 	justify-content: space-between;
 }
 
+.contact-icons {
+	display: flex;
+	flex-direction: row;
+}
+
 footer div, footer a {
 	color: white;
 	padding: 0 20px;
 	/*border: solid yellow 1px;*/
 	margin: 0px;
+}
+
+footer a p i {
+	font-size: 28px;
 }
 
 .copyright p {
