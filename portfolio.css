@@ -30,6 +30,10 @@ nav a:hover {
 	color: orange;
 }
 
+footer a:hover {
+	background-color: blue;
+}
+
 nav div {
 	color: white;
 	padding: 20px;
@@ -129,7 +133,7 @@ nav div {
 
 .project {
 	display: flex;
-	border: solid blue 1px;
+	border: solid green 1px;
 	padding: 0px;
 	/*min-width: 200px*/;
 	height: 300px;
@@ -140,17 +144,19 @@ nav div {
 	flex-direction: row;
 	flex-direction: row;
 	flex-wrap: wrap;
-	 border-radius: 5px;
+	 border-radius: 25px;
+	 z-index: 4;
 
 }
 
 .project div {
 	display: flex;
 	flex-direction: column;
-	border: solid orange 1px;
+	/*border: solid orange 1px;*/
 	width: 50%;
 	height: 100%;
 	padding: 0px;
+	border-radius: 25px;
 }
 
 .portfolio-title {
@@ -172,14 +178,16 @@ nav div {
 .project-photo {
 	display: flex;
 	max-size: 100%;
-
+	border-radius: 25px;
 	/*max-width: 305px;*/
+	z-index: 0;
 	
 }
 
 .projectphoto {
 		height: 100%;
 		width: 100%;
+		border-radius: 0px 25px 25px 0px;
 }
 
 .contact {
@@ -198,10 +206,6 @@ footer div, footer a {
 	padding: 0 20px;
 	border: solid yellow 1px;
 	margin: 0px;
-}
-
-#email {
-
 }
 
 /*800*/
