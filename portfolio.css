@@ -306,6 +306,10 @@ footer a p i {
 		margin: 5px auto;
 	}
 	
+	nav a {
+		color: red;
+		z-index: 10;
+	}
 
 	
 }
