@@ -22,21 +22,20 @@ nav {
 	max-height: 30px;
 	max-width: 40%;
 	gap: 10px;
+	font-weight: bold;
 }
 
-.about-card, .portfolio-card, .contact-card {
+nav div {
+	padding: 20px;
 	width: 82px;
 	justify-content: space-evenly;
-	
 }
 
 .about-card {
 	width: 70px;
 }
 
-/*nav a {
-font-family: "Courier New", Courier, monospace;
-}*/
+/*HOVER EFFECTS*/
 
 nav a:hover {
 	color: orange;
@@ -44,17 +43,8 @@ nav a:hover {
 	transition: 0.2s;
 }
 
-/*.project-text h3:hover, .project-text p:hover {
-	background-color: yellow;
-}*/
-
-/*.project:hover .hover-block {
-	background-color: yellow;
-}*/
-
 footer a p i:hover {
 	color: orange;
-	font-size: 31px;
 	transition: 0.2s;
 }
 
@@ -64,10 +54,7 @@ footer a p i:hover {
 	transition: 0.2s;
 }
 
-
-nav div {
-	padding: 20px;
-}
+/*HOVER-END*/
 
 .welcome-container {
 	display: flex;
@@ -75,8 +62,7 @@ nav div {
 	padding: 20px;
 	flex-direction: column;
 	flex-wrap: row-wrap;
-	max width: 100%;
-	/*border: solid red 2px;*/
+	max width: auto;
 }
 
 .welcome-container div {
@@ -85,7 +71,6 @@ nav div {
 	max width: auto;
 	flex-wrap: row-wrap;
 	max width: auto;
-	/*border: solid purple 1px;*/
 }
 
 .about {
@@ -97,22 +82,17 @@ nav div {
 	flex-wrap: row-wrap;
 	width: auto;
 	height: auto;
-	/*border: solid red 2px;*/
-	z-index: 4;
-	justify-content: space-evenly;
-	
 }
 
-.about-rightward {
-	    background: white;
-	    border-radius: 50%;
-	    min-width: 200px;
-	    min-height: 200px;
-		justify-content: flex-end;
+.about-image {
+	background: white;
+	border-radius: 50%;
+	min-width: 180px;
+	min-height: 180px;
 }
 
 
-.about-leftward {
+.about-text {
 	display: flex;
 	padding: 0px;
 	justify-content: flex-start;
@@ -127,10 +107,8 @@ nav div {
 
 .about div {
 	display: flex;
-	/*justify-content: center;*/
 	width: auto;
 	flex-wrap: wrap;
-	/*border: solid purple 1px;*/
 	flex-direction: column;
 	/*white-space: normal;*/
 	/*word-break: break-all;*/
@@ -147,7 +125,6 @@ nav div {
     min-width: 240px;
     min-height: 240px;
 }
-
 
 .portfolio-container {
 	display: flex;
@@ -296,7 +273,7 @@ footer a p i {
 
 /*800*/
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1100px) {
 	
 	.project-container {
 		display: flex;
