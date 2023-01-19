@@ -119,12 +119,9 @@ footer a p i:hover {
 .project {
 	display: flex;
 	padding: 0px;
-	/*height: 300px;*/
 	max-height: 280px;
 	min-height: 235px;
 	width: 32%;
-	max-width: 500px;
-	/*height: auto;*/
 	margin: 10px 5px;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -134,13 +131,9 @@ footer a p i:hover {
 .project div {
 	display: flex;
 	flex-direction: column;
-	/*border: solid orange 1px;*/
 	width: 50%;
 	height: 100%;
-	padding: 0px;
-	/*border-radius: 25px;/*25px*/
 	background-color: #303338;
-	/*z-index: 4;*/
 	position: relative;
 
 }
@@ -173,11 +166,14 @@ footer a p i:hover {
 	padding-bottom: 0px;
 	flex-direction: row;
 	justify-content: space-between;
+	margin-top: 20px;
+	margin-bottom: 5px;
 }
 
 .project p {
 	font-size: 14.5px;
-	line-height: 1.5;
+	line-height: 1.6;
+	margin: 0px;
 }
 
 .project * {
@@ -217,7 +213,7 @@ footer a p i:hover {
 	border-radius: 0px 25px 25px 0px;
 }
 
-.contact {
+.contact /*footer*/ {
 	display: flex;
 	background-color: #23262b;
 	flex-direction: row;
@@ -232,12 +228,19 @@ footer a p i:hover {
 }
 
 footer div, footer a {
+	display:flex;
 	padding: 0 20px;
 	margin: 0px;
 }
 
+.copyright {
+	position: relative;
+}
+
+
 .copyright p {
 	font-family: "Courier New", Courier, monospace;
+	align-self: flex-end;
 }
 
 /*800*/
@@ -262,8 +265,6 @@ footer div, footer a {
 		height: 240px;
 		margin: 5px auto;
 	}
-	
-
 	
 }
 
